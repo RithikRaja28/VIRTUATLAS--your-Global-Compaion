@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bgcolor);
+}
+
+:root{
+  --bgcolor:black;
+  --textcolor:white;
+  scroll-behavior: smooth;
+  --themecolor:#6Cd4ee;
+}
+
+.navigation
+{
+  background-color: var(--bgcolor);
+}
+
+.navitems
+{
+  margin-left: 50px;
+}
+.nav-item{
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+.nav-item::before
+{
+  content: "";
+  width: 100%;
+  height: 2.5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: 0.5s transform ease-in-out;
+  transform: scale3d(0,1,1);
+  transform-origin: 0 50%;
+}
+
+.nav-item:hover::before{
+  transform: scale3d(1,1,1);
+}
+.menu
+{
+  background: #4A148C;
+}
+.menu::before{
+  background: #6Cd4ee;
+  transform-origin: 0 50%;
+}
+.menu:hover::before{
+  transform-origin: 100% 50%;
+}
+.herobtn
+{
+cursor: pointer;
+transition: transform 1s ease;
+}
+
+.herobtn:hover
+{
+  transform: scale(0.9);
+}
+.hero-profile{
+  animation-name: animate;
+  animation-duration: 2s ;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  from{
+    transform: translate3d(10px, 30%, 3em);
+  }
+  to{
+    transform: translate3d(0px, 0%, 3em);
+  }
+}
+
+.explore-heading
+{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer-1
+{
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 h5 :hover{
+  text-decoration: underline;
+}
+.footer-1 a{
+  text-decoration: none;
+  color:grey;
+  font-weight: normal;
+}
+
+iframe{
+  border-radius: 15px;
+}
