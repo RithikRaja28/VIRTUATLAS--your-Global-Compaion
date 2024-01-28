@@ -49,6 +49,9 @@ language packages
 ●  The Sustainable development goals (3,6,7,8,9,10,11,12,13,17) areachieved with the help of Virtuatlas
 
 
+## Web:
+
+    🕸️> [Virtuatlas - Web Application](https://drive.google.com/file/d/1MBE0Jew1uzXD6z4bhHSxVrWdwGjgUykR/view?usp=sharing)
 
 
 ## Resources
