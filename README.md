@@ -1,5 +1,7 @@
 # Virtuatlas - Your Global Companion, Your own Language
 
+*This is just the front-end created and further updates will be committed*
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Problem Statement
